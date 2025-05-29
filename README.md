@@ -270,7 +270,7 @@ The framework supports systematic organization of collaboration artifacts:
 /
 ├── readme.md                    # This framework documentation
 ├── contributions.md             # Governance and contribution guidelines
-├── rules.md                     # Core collaboration rules
+├── 00-rules.md                     # Core collaboration rules
 ├── context/                     # Collaboration context and artifacts
 │   ├── readme.md               # Context management guidelines
 │   ├── docs/                   # Framework documentation
