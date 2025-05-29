@@ -1,3 +1,8 @@
+# Installations
+```markdown
+place `00-rules.md` inside `.roo/rules/`
+```
+
 # Human-AI Collaboration Framework
 
 ## Vision
