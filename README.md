@@ -1,6 +1,10 @@
-# Installations
-```markdown
-place `00-rules.md` inside `.roo/rules/`
+# Installation Instructions
+```markdowns
+place `00-rules.md` inside:
+1. For Roo Code .roo/rules/
+2. For Cline .clinerules/
+3. For Cursor .cursor/rules/
+4. For Claude rename 00-rules.md to claude.md
 ```
 
 # Human-AI Collaboration Framework
