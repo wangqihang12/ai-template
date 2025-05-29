@@ -133,7 +133,7 @@ This collaboration framework is designed to evolve based on:
 - Technological capabilities and limitations
 - Community contributions and improvements
 
-See [`contributions.md`](contributions.md) for detailed guidance on proposing framework improvements and contributing to its evolution.
+See [`contributions.md`](contributions.md) for detailed guidance on proposing framework improvements and contributing to its evolution. (Pending)
 
 ---
 
