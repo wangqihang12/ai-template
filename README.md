@@ -2,6 +2,7 @@
 
 ```markdowns
 place `00-rules.md` inside:
+
 1. For Roo Code .roo/rules/
 2. For Cline .clinerules/
 3. For Cursor .cursor/rules/
