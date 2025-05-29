@@ -113,15 +113,15 @@ The framework supports systematic organization of collaboration artifacts:
 │   ├── readme.md               # Context management guidelines
 │   ├── docs/                   # Framework documentation
 │   ├── workflows/              # Standard workflow definitions
-│   └── [project_name]/         # Project-specific collaboration context
-│       ├── readme.md           # Project collaboration overview
-│       ├── architecture.md     # Technical architecture decisions
-│       └── journal/            # Session-by-session collaboration log
-│           └── [YYYY-MM-DD]/   # Daily collaboration sessions
-│               └── [HHMM]-[task_name].md  # Individual session records
-└── [project_name]/             # Actual project files and deliverables
-    ├── readme.md               # Project documentation
-    └── ...                     # Project-specific files and folders
+│   ├── [project_name]/         # Project-specific collaboration context
+│   │   ├── readme.md           # Project collaboration overview
+│   │   ├── architecture.md     # Technical architecture decisions
+│   │   └── journal/            # Session-by-session collaboration log
+│   │       ├── [YYYY-MM-DD]/   # Daily collaboration sessions
+│   │       │   ├── [HHMM]-[task_name].md  # Individual session records
+├── [project_name]/             # Actual project files and deliverables
+│   ├── readme.md               # Project documentation
+│   └── ...                     # Project-specific files and folders
 ```
 
 ## Framework Evolution
