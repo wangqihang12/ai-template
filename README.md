@@ -1,4 +1,5 @@
 # Installation Instructions
+
 ```markdowns
 place `00-rules.md` inside:
 1. For Roo Code .roo/rules/
@@ -52,54 +53,15 @@ graph TD
     D2[Human Feedback] --> D
 ```
 
-#### Stage 1: Problem Understanding
-- **Purpose**: Establish clear, shared understanding of the task
-- **Key Questions**:
-  - What exactly needs to be addressed/analyzed/solved?
-  - What are the key requirements and constraints?
-  - How does this fit with broader context or goals?
-  - What success criteria should we aim for?
-- **Output**: Validated problem definition and success criteria
-
-#### Stage 2: Approach Analysis
-- **Purpose**: Evaluate multiple solution approaches transparently
-- **Process**: Present 2-3 viable options with pros/cons analysis
-- **Decision**: Human selects preferred approach or requests modifications
-- **Output**: Approved solution strategy with rationale
-
-#### Stage 3: Solution Planning
-- **Purpose**: Create detailed, reviewable implementation plan
-- **Components**:
-  - Ordered key steps
-  - Required resources and dependencies
-  - Potential challenges and mitigation strategies
-  - Validation checkpoints
-- **Output**: Approved implementation roadmap
-
-#### Stage 4: Iterative Execution
-- **Purpose**: Implement solution with continuous validation
-- **Pattern**: Execute step → Present results → Gather feedback → Adjust
-- **Quality Gates**: Regular human review and approval
-- **Output**: Validated solution components
-
 ### 2. Adaptive Communication Patterns
 
 The framework provides standardized communication templates that trigger based on context:
 
 #### Confidence-Based Triggers
-- **High Confidence (>70%)**: Direct presentation with reasoning
-- **Medium Confidence (40-70%)**: Present options with uncertainty areas
-- **Low Confidence (<40%)**: Explicit uncertainty acknowledgment and help requests
 
 #### Complexity-Based Triggers
-- **Simple Problems**: Streamlined process with minimal checkpoints
-- **Complex Problems**: Full framework with detailed breakdowns
-- **High-Impact Problems**: Additional risk assessment and approval gates
 
 #### Risk-Based Triggers
-- **Ethical Concerns**: Mandatory pause for explicit human guidance
-- **Significant Impact**: Warning flags with impact assessment
-- **Irreversible Decisions**: Required approval before proceeding
 
 ### 3. Context Management System
 
@@ -112,17 +74,8 @@ Status: [completed/remaining/blockers]
 ```
 
 #### Project-Level Context
-- Original requirements and changes
-- Key decisions and rationale
-- Human feedback incorporation
-- Alternative approaches considered
-- Lessons learned for future iterations
 
 #### Knowledge Preservation
-- Decision trees and rationale
-- Effective patterns and anti-patterns
-- Domain-specific adaptations
-- Quality metrics and improvements
 
 ### 4. Quality Assurance Framework
 
@@ -145,131 +98,6 @@ Status: [completed/remaining/blockers]
 - [ ] Solution reviewed for completeness
 - [ ] Validation approach defined
 - [ ] Documentation updated
-
-## Implementation Guide
-
-### Getting Started
-
-1. **Establish Context**: Begin each session by confirming understanding and success criteria
-2. **Set Expectations**: Clarify the collaboration approach and validation frequency
-3. **Define Scope**: Identify complexity level and appropriate framework components
-4. **Plan Checkpoints**: Agree on review points and decision-making authority
-
-### Core Workflows
-
-#### Standard Problem-Solving Flow
-```
-1. Problem Understanding
-   └── Confirm requirements and context
-   └── Define success criteria
-   └── Get human validation
-
-2. Approach Analysis  
-   └── Generate 2-3 solution options
-   └── Analyze pros/cons for each
-   └── Present recommendation with reasoning
-   └── Get human decision
-
-3. Solution Planning
-   └── Break down into implementation steps
-   └── Identify resources and dependencies
-   └── Assess risks and mitigation strategies
-   └── Get plan approval
-
-4. Iterative Execution
-   └── Execute step
-   └── Present results and reasoning
-   └── Gather feedback
-   └── Adjust if needed
-   └── Repeat until complete
-```
-
-#### Complex Problem Workflow
-For high-complexity or high-impact problems:
-- Add detailed risk assessment phase
-- Increase checkpoint frequency
-- Include alternative approach evaluation
-- Require explicit approval for major decisions
-- Document detailed rationale for future reference
-
-#### Domain-Specific Adaptations
-
-**Technical Problems**
-- Emphasize scalability and maintainability
-- Include performance and security considerations
-- Plan comprehensive testing strategies
-- Address long-term technical debt
-
-**Analytical Problems**
-- Validate data quality and methodology
-- Show statistical reasoning clearly
-- Address assumptions and limitations
-- Provide confidence intervals
-
-**Creative Problems**
-- Explore multiple creative directions
-- Balance originality with feasibility
-- Consider audience and context
-- Iterate based on aesthetic feedback
-
-**Strategic Problems**
-- Analyze long-term implications
-- Evaluate stakeholder impacts
-- Consider resource requirements
-- Plan risk mitigation strategies
-
-### Best Practices
-
-#### For Humans
-1. **Provide Context**: Share background, constraints, and success criteria
-2. **Be Specific**: Clear requirements lead to better solutions
-3. **Give Feedback**: Regular input improves solution quality
-4. **Ask Questions**: Clarify reasoning when uncertain
-5. **Set Boundaries**: Define scope and approval authority clearly
-
-#### For AI Systems
-1. **Show Reasoning**: Always explain the thinking process
-2. **Express Uncertainty**: Acknowledge limitations and confidence levels
-3. **Seek Input**: Ask for human guidance at decision points
-4. **Preserve Context**: Document decisions and rationale
-5. **Validate Often**: Regular checkpoints prevent misalignment
-
-### Communication Templates
-
-#### Starting a Task
-```
-Let me confirm: [restate key requirements]
-[Ask clarifying questions if needed]
-Does this match your intent?
-```
-
-#### Presenting Solutions
-```
-Solution: [brief solution with explanation]
-
-Key decisions:
-- [decision 1]: [rationale]
-- [decision 2]: [rationale]
-
-Adjustments needed?
-```
-
-#### Handling Uncertainty
-```
-I'm not entirely sure about this approach. Here's my thinking:
-[reasoning steps]
-
-I'm particularly uncertain about: [specific concerns]
-What's your take on this?
-```
-
-#### Managing Complexity
-```
-This is getting complex. The solution involves:
-[complexity breakdown]
-
-How should we handle this complexity?
-```
 
 ## Directory Structure
 
@@ -295,37 +123,6 @@ The framework supports systematic organization of collaboration artifacts:
     └── ...                     # Project-specific files and folders
 ```
 
-### Context Documentation Standards
-
-Each project should maintain:
-- **Architecture decisions**: Key technical and design choices with rationale
-- **Collaboration patterns**: Effective approaches discovered for the project
-- **Decision history**: Record of major decisions and their outcomes
-- **Lessons learned**: Insights for future similar projects
-
-## Success Metrics
-
-### Good Collaboration Indicators
-- Human feels heard and understood
-- Solutions meet actual needs
-- Process feels efficient and productive
-- Learning happens on both sides
-- Context is preserved effectively
-
-### Quality Solution Indicators
-- Clear and well-reasoned
-- Addresses the actual problem
-- Considers important limitations
-- Includes appropriate validation
-- Scales to future similar problems
-
-### Effective Communication Indicators
-- Clear explanations of reasoning
-- Appropriate level of detail
-- Responsive to feedback
-- Builds on previous context
-- Reduces misunderstandings
-
 ## Framework Evolution
 
 This collaboration framework is designed to evolve based on:
@@ -336,14 +133,6 @@ This collaboration framework is designed to evolve based on:
 - Community contributions and improvements
 
 See [`contributions.md`](contributions.md) for detailed guidance on proposing framework improvements and contributing to its evolution.
-
-## Getting Support
-
-For questions about implementing this framework:
-1. Review the core patterns and examples in this documentation
-2. Check the workflows and templates for similar scenarios
-3. Consult domain-specific adaptations for specialized guidance
-4. Propose new patterns through the contribution process
 
 ---
 
