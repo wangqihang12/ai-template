@@ -204,15 +204,15 @@ Could you help clarify [specific question]?"
 │   ├── readme.md
 │   ├── docs/
 │   ├── workflows/
-│   └── [project_name]/
-│       ├── readme.md
-│       ├── architecture.md
-│       └── journal/
-│           └── [YYYY-MM-DD]/
-│               └── [HHMM]-[task_name].md
-└── [project_name]/
-    ├── readme.md
-    └── (other project folders/files)
+│   ├── [project_name]/
+│   │   ├── readme.md
+│   │   ├── architecture.md
+│   │   └── journal/
+│   │       ├── [YYYY-MM-DD]/
+│   │       │   ├── [HHMM]-[task_name].md
+├── [project_name]/
+│   ├── readme.md
+│   └── (other project folders/files)
 ```
 
 ## Error Recovery
