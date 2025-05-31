@@ -1,12 +1,16 @@
-# Installation Instructions
+# AI (Aaditri Informatics)
 
-```markdowns
-place `00-rules.md` inside:
+## Installation
 
-1. For Roo Code .roo/rules/
-2. For Cline .clinerules/
-3. For Cursor .cursor/rules/
-4. For Claude rename 00-rules.md to claude.md
+The framework uses a **prompt injection method** through the `00-rules.md` file, which contains collaboration rules that modify AI behavior:
+
+```bash
+# Place 00-rules.md in your AI assistant's rules directory:
+
+1. For Roo Code: .roo/rules/
+2. For Cline: .clinerules/
+3. For Cursor: .cursor/rules/
+4. For Claude: rename 00-rules.md to claude.md
 ```
 
 # Human-AI Collaboration Framework
@@ -107,8 +111,6 @@ The framework supports systematic organization of collaboration artifacts:
 ```
 /
 ├── readme.md                    # This framework documentation
-├── contributions.md             # Governance and contribution guidelines
-├── 00-rules.md                     # Core collaboration rules
 ├── context/                     # Collaboration context and artifacts
 │   ├── readme.md               # Context management guidelines
 │   ├── docs/                   # Framework documentation
@@ -121,7 +123,7 @@ The framework supports systematic organization of collaboration artifacts:
 │   │       │   ├── [HHMM]-[task_name].md  # Individual session records
 ├── [project_name]/             # Actual project files and deliverables
 │   ├── readme.md               # Project documentation
-│   └── ...                     # Project-specific files and folders
+│   └── (other project folders/files)  # Project-specific files and folders
 ```
 
 ## Framework Evolution
@@ -133,7 +135,7 @@ This collaboration framework is designed to evolve based on:
 - Technological capabilities and limitations
 - Community contributions and improvements
 
-See [`contributions.md`](contributions.md) for detailed guidance on proposing framework improvements and contributing to its evolution. (Pending)
+Framework improvements and contributions should align with the core philosophy of thoughtful, collaborative problem-solving.
 
 ---
 
