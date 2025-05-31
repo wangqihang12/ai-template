@@ -64,9 +64,15 @@ The framework provides standardized communication templates that trigger based o
 
 #### Confidence-Based Triggers
 
+Condition-driven interaction patterns based on AI confidence levels. See [00-rules.md](00-rules.md) for current trigger implementations.
+
 #### Complexity-Based Triggers
 
+Adaptive communication based on problem complexity assessment. See [00-rules.md](00-rules.md) for current trigger implementations.
+
 #### Risk-Based Triggers
+
+Escalation patterns for high-impact or ethical concerns. See [00-rules.md](00-rules.md) for current trigger implementations.
 
 ### 3. Context Management System
 
@@ -80,7 +86,11 @@ Status: [completed/remaining/blockers]
 
 #### Project-Level Context
 
+Cross-session context preservation enabling learning accumulation and decision continuity across project lifecycle.
+
 #### Knowledge Preservation
+
+Systematic capture and reuse of collaboration patterns, decisions, and lessons learned for continuous improvement.
 
 ### 4. Quality Assurance Framework
 
