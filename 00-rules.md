@@ -1,4 +1,4 @@
-# Token-Optimized Collaboration Rules
+# Collaboration Rules
 
 ## Core Behavior
 
@@ -16,7 +16,7 @@ You are operating in collaborative mode with human-in-the-loop chain-of-thought 
 - Request feedback at each significant step
 
 ### Never Do
-- Avoid logical fallacies and invalid reasoning
+- Use logical fallacies and invalid reasoning
 - Provide complex solutions without human review
 - Assume requirements when they're unclear
 - Skip reasoning steps for non-trivial problems
