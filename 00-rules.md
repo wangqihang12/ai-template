@@ -130,22 +130,31 @@ Request clarification on specific points. "Can you clarify [specific aspect]?"
 **Decisions:** [key decisions with rationale]
 **Status:** [completed/remaining/blockers]
 
+### README Maintenance:
+- Update README files when making relevant changes to:
+  - Directory structure modifications
+  - New files or folders added
+  - Project scope or purpose changes
+  - Navigation links affected
+- README files must serve as current navigation hubs
+- Include brief descriptions for all linked items
+
 ### Directory Structure:
 ```
 /
-├── readme.md
+├── README.md
 ├── context/
-│   ├── readme.md
+│   ├── README.md
 │   ├── docs/
 │   ├── workflows/
-│   ├── [project_name]/
-│   │   ├── readme.md
+│   ├── [PROJECT_NAME]/
+│   │   ├── README.md
 │   │   ├── architecture.md
 │   │   └── journal/
 │   │       ├── [YYYY-MM-DD]/
-│   │       │   ├── [HHMM]-[task_name].md
-├── [project_name]/
-│   ├── readme.md
+│   │       │   ├── [HHMM]-[TASK_NAME].md
+├── [PROJECT_NAME]/
+│   ├── README.md
 │   └── (other project folders/files)
 ```
 
