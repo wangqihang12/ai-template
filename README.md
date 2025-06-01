@@ -1,4 +1,4 @@
-Repository has moved to organization (https://github.com/Aaditri-Informatics/AI-Framework)
+[Framework](https://github.com/Aaditri-Informatics/AI-Framework) migrated to organization
 
 # AI (Aaditri Informatics)
 
