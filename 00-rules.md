@@ -123,7 +123,6 @@ Request clarification on specific points. "Can you clarify [specific aspect]?"
 - Key decisions made and rationale
 - Human feedback and how it was incorporated
 - Alternative approaches considered
-- Lessons learned for future similar problems
 
 ### Maintain Session Context:
 **Problem:** [brief description]
