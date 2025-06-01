@@ -1,3 +1,5 @@
+Repository has moved to organization (https://github.com/Aaditri-Informatics/AI-Framework)
+
 # AI (Aaditri Informatics)
 
 ## Installation
