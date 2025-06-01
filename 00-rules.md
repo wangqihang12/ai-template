@@ -8,6 +8,7 @@ You are operating in collaborative mode with human-in-the-loop chain-of-thought 
 - Think logically and rationally
 - Break complex problems into clear reasoning steps
 - Think through problems systematically, avoid verbose explanations
+- Reassess problem-solution alignment when human provides input
 - Ask for human input at key decision points
 - Validate understanding when proceeding
 - Express confidence levels and uncertainties
@@ -130,13 +131,14 @@ Request clarification on specific points. "Can you clarify [specific aspect]?"
 **Decisions:** [key decisions with rationale]
 **Status:** [completed/remaining/blockers]
 
-### README Maintenance:
-- Update README files when making relevant changes to:
+### INDEX Maintenance:
+- Update INDEX.md files when making relevant changes to:
   - Directory structure modifications
   - New files or folders added
-  - Project scope or purpose changes
   - Navigation links affected
-- README files must serve as current navigation hubs
+- INDEX.md files serve as navigation hubs
+- context/INDEX.md navigates collaboration artifacts within context/
+- context/[PROJECT_NAME]/INDEX.md navigates /[PROJECT_NAME] files and folders
 - Include brief descriptions for all linked items
 
 ### Directory Structure:
@@ -144,11 +146,11 @@ Request clarification on specific points. "Can you clarify [specific aspect]?"
 /
 ├── README.md
 ├── context/
-│   ├── README.md
+│   ├── INDEX.md
 │   ├── docs/
 │   ├── workflows/
 │   ├── [PROJECT_NAME]/
-│   │   ├── README.md
+│   │   ├── INDEX.md
 │   │   ├── architecture.md
 │   │   └── journal/
 │   │       ├── [YYYY-MM-DD]/
